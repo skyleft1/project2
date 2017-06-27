@@ -1,6 +1,6 @@
 
 * {
-	border : 2px solid;
+	border : 0px solid;
 	list-style: none;
 	margin :0 auto;
 	padding :0;
@@ -8,54 +8,90 @@
 h3{
 	font-size: 20px;
 }
+h5{
+	font-size: 15px;
+}
 
 
 .login{
-	text-align: right;
+	text-align: center;
+	background-color: #77bf76;
 }
 .login > div{
+	width: 1100px;
+}
+
+.login  div{
 	display: inline-block;
+	text-align: right;
+	line-height: 30px;
 }
-.login > first-child{
-	width: 70%;
-}
+
+
 .login .move_signin,
 .login .move_signup,
 {
 	width: 10%;
 }
-
+.wrap_menu {
+	background-color: #ffffff;
+}
 .menu{
 	height: 100px;
+	width: 1100px;
+
 }
 
 .menu_logo{
-    display: inline-block;
-    width: 20%;
+	display: inline-block;
+	width: 20%;
 	height: 100px;
 	vertical-align: top;
 }
 .menu_logo img{
 	margin-top: 15px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 
 .menu_content{
 	display: inline-block;
-    width: 78%;
+	width: 870px;
+	height: 100px;
+	text-align: right;
+}
+
+.menu_content > ul{
+	line-height: 100px;
 }
 
 .menu_content > ul > li{
 	display: inline-block;
-	width: 18%;
-
+	width: 140px;
 	text-align: center;
 }
 
-.menu_content > ul > li> div{
-	height: 100px;
-	margin-top: 30px;
+
+.wrap_inner {
+	background-color: #e2e2c5;
+	padding: 15px 0;
+}
+.menu_content_inner {
+	width: 1100px;
+	text-align : right;
+}
+
+
+.menu_content_inner > ul{
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+
+}
+
+
+.menu_content_inner > ul > li{
+	line-height: 30px;
 }
 
 
