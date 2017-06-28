@@ -4,7 +4,6 @@ $(function(){
 });
 
 
-
 $(document).ready(function(){
 	$('.menu_content').mouseenter(function(e){
 		$('.wrap_inner').slideDown(200);
@@ -18,9 +17,6 @@ $(document).ready(function(){
 	}).mouseleave(function(e){
 		$(this).css('color', '');
 	});
-
-
-
 });
 
 
