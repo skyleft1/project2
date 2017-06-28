@@ -1,3 +1,7 @@
+body{
+	font-family: 'nanum', '나눔 고딕', Nanum Gothic, "맑은 고딕", Malgun Gothic, '돋움',dotum,Helvetica,sans-serif;
+}
+
 
 * {
 	border : 0px solid;
@@ -12,27 +16,37 @@ h5{
 	font-size: 15px;
 }
 
+.box{
+	width: 70px;
+	height: : 50px;
+	text-align: center;
+}
+
 
 .login{
 	text-align: center;
-	background-color: #77bf76;
+	background-color: #d4e6bb;
 }
 .login > div{
 	width: 1100px;
+	text-align: right;
 }
 
-.login  div{
+.login div{
 	display: inline-block;
-	text-align: right;
 	line-height: 30px;
 }
 
 
-.login .move_signin,
-.login .move_signup,
-{
-	width: 10%;
+.login .move_login,
+.login .move_signup{
+	color : #4f964e;
 }
+.dot {
+	color: white;
+}
+
+
 .wrap_menu {
 	background-color: #ffffff;
 }
@@ -73,8 +87,11 @@ h5{
 
 
 .wrap_inner {
-	background-color: #e2e2c5;
+	background-color: #ffffff;
 	padding: 15px 0;
+	display: none;
+	position: absolute;
+    width: 100%;
 }
 .menu_content_inner {
 	width: 1100px;
@@ -83,6 +100,7 @@ h5{
 
 
 .menu_content_inner > ul{
+	vertical-align: top;
 	display: inline-block;
 	width: 140px;
 	text-align: center;
@@ -95,3 +113,38 @@ h5{
 }
 
 
+
+
+
+/*여기서부터 footer*/
+
+.footer{
+	background-color: #333333;
+}
+.wrap_footer{
+	width: 1100px;
+}
+
+.footer_menu{
+	color: #a0a0a0;
+	line-height: 50px;
+	border-bottom: 1px solid #404040;
+}
+.footer_menu > div{
+	display: inline-block;
+}
+.footer_menu > div:first-child{
+	margin-right: 330px;
+}
+
+.footer_menu li{
+	display: inline-block;
+}
+
+
+.footer_copy{
+	color: #999;
+	line-height: 20px;
+	font-size: 13px;
+	padding: 20px 0px 30px 0px;
+}
