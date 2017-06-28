@@ -1,5 +1,5 @@
-<!-- <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%> -->
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
 
 	<!DOCTYPE html>
 	<html lang="en">
@@ -17,12 +17,12 @@
 	</head>
 	<body>
 
-<!-- header 부분 -->
+<!-- header 遺�遺� -->
 	<div class='header'></div>
 
-<!-- content 부분 -->
+<!-- content 遺�遺� -->
 		<div class='content'>
-<!-- 메인 사진 -->
+<!-- 硫��� �ъ� -->
 			<div class='main_content'>
 				<div class='main_banner'>
 					<div class=''>
@@ -30,22 +30,22 @@
 					</div>
 				</div>
 			</div>
-<!-- 베너 3가지 -->
+<!-- 踰��� 3媛�吏� -->
 			<div class='inner_content'>
 				<div class=''>
 					<div class='wrap_content'>
 						<div class=''>
 							<div class='notice'>
 								<div class=''>
-									<h3>공지사항</h3>
+									<h3>왜 깨지냐 진짜</h3>
 
 								</div>
 								<div class=''>
 									<ul>
-										<li>공지 최신1</li>
-										<li>공지 최신2</li>
-										<li>공지 최신3</li>
-										<li>공지 최신4</li>
+										<li>怨듭� 理���1</li>
+										<li>怨듭� 理���2</li>
+										<li>怨듭� 理���3</li>
+										<li>怨듭� 理���4</li>
 									</ul>
 								</div>
 							</div>
@@ -53,13 +53,13 @@
 						<div class=''>
 							<div class='gallery'>
 								<div>
-									<h3>사진첩</h3>
+									<h3>�ъ�泥�</h3>
 								</div>
 								<div>
 									<div class=''>
 										<div>
 											<a href='#'>
-												<img src='#'/>사진을 넣자
+												<img src='#'/>�ъ��� �ｌ��
 											</a>
 										</div>
 									</div>
@@ -69,10 +69,10 @@
 						<div class=''>
 							<div class='reserve'>
 								<div>
-									<h3>예약하기</h3>
+									<h3>���쏀��湲�</h3>
 								</div>
 								<div class=''>
-									<div>달력 만들기</div>
+									<div>�щ�� 留��ㅺ린</div>
 								</div>
 							</div>
 						</div>
@@ -81,7 +81,7 @@
 			</div>
 		</div>
 
-<!-- footer 부분 -->
+<!-- footer 遺�遺� -->
 	<div class='footer'></div>
 
 
