@@ -2,17 +2,17 @@ body{
 	background-color: #f5f5f5;
 }
 
-.login_content div{
+.reserve_content div{
 	border: 0px solid;
 }
 
-.login_content{
-	width: 500px;
+.reserve_content{
+	width: 750px;
 }
 
-.login_content > div{
+.reserve_content > div{
 	background-color: white;
-	margin: 130px auto;
+	margin: 100px auto;
 	padding: 30px;
 
 	text-align: center;
@@ -20,17 +20,20 @@ body{
 
 form div{
 	line-height: 30px;
-	text-align: left;
+	text-align: center;
 	margin: 15px 20px;
 }
 
-form input[type='text'],
-form input[type='password'],
 form input[type='submit'] {
-	width:400px; height:35px;
+	width:150px; height:35px;
 	border: 1px solid gray;
-}
-form input[type='submit'] {
 	margin: 20px auto;
+	font-size : 16px;
+
 }
- 
+
+.calander1,
+.calander2
+{
+	display: inline-block;
+}
