@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Insert title here</title>
+
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/map.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+
+		<script src='js/jquery-3.1.0.js'></script>
+		<script src='js/jquery-ui.js'></script>
+
+		<script src='js/common.js'></script>
+
+
+
+	</head>
+	<body>
+
+<!-- header -->
+	<div class='header'></div>
+
+<!-- content -->
+	<div class=''>
+		<div class='map_content'>
+			<div class=''>
+				<div><h3>찾아오시는 길</h3></div>
+				<div class='map_detail'>
+					<div id='map'>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class='footer'></div>
+
+
+	<script>
+	    var map;
+	    function initMap() {
+	      	map = new google.maps.Map(document.getElementById('map'), {
+	        center: {lat: 37.529607, lng: 127.067062},
+	        zoom: 15,
+	      });
+	    };
+    </script>
+
+		<script	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9dM4RlcONOfGWs-58QxYVnCBO1IKMuNg&callback=initMap">
+		</script>
+
+
+
+	</body>
+	</html>

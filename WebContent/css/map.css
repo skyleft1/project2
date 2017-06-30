@@ -1,0 +1,36 @@
+
+body{
+	background-color: #f5f5f5;
+}
+
+.map_content div{
+	border: 0px solid;
+}
+
+.map_content{
+	width: 800px;
+}
+
+.map_content > div{
+	border: 1px solid #e4e4e4;
+	background-color: white;
+	margin: 80px 0 140px 0;
+	padding: 30px;
+
+	text-align: center;
+}
+
+.map_content > div > div:first-child{
+    margin-bottom: 30px;
+}
+
+.map_detail{
+
+}
+
+#map{
+	
+	width: 700px;
+	height: 500px;
+	
+}

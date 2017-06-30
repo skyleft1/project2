@@ -23,7 +23,7 @@
 	<!-- login -->
 	<div class=''>
 		<div class='login_content'>
-			<div class=''>로그인
+			<div class=''><h3>로그인</h3>
 				<div class=''>
 					<form method='post' action=loginAction.jsp>
 						<div>

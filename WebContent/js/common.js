@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 	
 	$(document).on('mouseenter', '.menu_content li, .menu_content_inner li', function(e){
-		$(this).css('color', '#378c42');
+		$(this).css('color', '#378c42 !important');
 	});
 	$(document).on('mouseleave', '.menu_content li, .menu_content_inner li', function(e){
 		$(this).css('color', '');
@@ -35,7 +35,6 @@ $(document).ready(function(){
 		    , maxDate: 30
 		});
 	});
-	
-		
+
 
 });

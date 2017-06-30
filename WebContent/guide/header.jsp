@@ -10,7 +10,9 @@
 					<a href='login.jsp'>로그인</a>
 				</div>
 				<div class='dot'>ㆍ</div>
-				<div class='move_signup box'>회원가입</div>
+				<div class='move_signup box'>
+					<a href='join.jsp'>회원가입</a>
+				</div>
 			</div>
 		</div>
 		<div class='warp_menu_inner'>
@@ -47,7 +49,7 @@
 						<li><h5>템플스테이 소개</h5></li>
 						<li><h5>주지스님 인사말</h5></li>
 						<li><h5>프로그램 소개</h5></li>
-						<li><h5>찾아오시는 길</h5></li>
+						<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
 					</ul>
 					<ul>
 						<li><h5>상시프로그램</h5></li>

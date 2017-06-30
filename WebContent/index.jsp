@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
+
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -10,6 +11,10 @@
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+
+		<link rel='stylesheet' href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css'>
+		<link rel="stylesheet" href="./style.css">
+
 
 		<script src='js/jquery-3.1.0.js'></script>
 		<script src='js/jquery-ui.js'></script>

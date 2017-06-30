@@ -11,6 +11,7 @@ body{
 }
 
 .reserve_content > div{
+	border: 1px solid #e4e4e4;
 	background-color: white;
 	margin: 100px auto;
 	padding: 30px;
