@@ -25,7 +25,19 @@
 	<div class='header'></div>
 
 <!-- content -->
-	<div class=''>
+	<div class='wrap'>
+	<!-- map 좌측메뉴 -->
+		<div class='side_menu'>
+			<div><h3>템플스테이</h3></div>
+			<ul>
+				<li><h5>템플스테이란?</h5></li>
+				<li><h5>템플스테이 소개</h5></li>
+				<li><a href='monk.jsp'><h5>주지스님 인사말</h5></a></li>
+				<li><h5>프로그램 소개</h5></li>
+				<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
+			</ul>
+		</div>
+	<!-- map 우측내용 -->
 		<div class='map_content'>
 			<div class=''>
 				<div><h3>찾아오시는 길</h3></div>

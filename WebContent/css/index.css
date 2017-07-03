@@ -1,7 +1,7 @@
 
 .content{
 	background-color: #f4f4f4;
-	border: 1px solid;
+
 }
 
 .main_banner{
@@ -13,6 +13,7 @@
 .wrap_content {
 	width: 1100px;
 	text-align: center;
+	padding-bottom: 60px;
 
 }
 

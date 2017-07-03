@@ -6,40 +6,26 @@ p{
 	height: 30px;
 }
 
-.join_content{
-	width: 700px;
-}
-
-.join_content div{
+.bbs_view_content div{
 	border: 0px solid;
 }
 
+.bbs_view_content{
+	width: 700px;
+}
 
-.join_maintitle{
+.bbs_view_maintitle{
 	margin-bottom: 20px;
 }
 
-.join_content > div{
-	margin-bottom: 20px;
+.bbs_view_content > div{
+	
 	border: 1px solid #e4e4e4;
 	background-color: white;
 	margin: 130px auto;
 	padding: 30px;
 
 	text-align: center;
-}
-
-form {
-
-}
-
-form div{
-	line-height: 30px;
-	text-align: left;
-	margin: 15px 20px;
-}
-form input{
-	text-alige: center;
 }
 
 
@@ -52,11 +38,11 @@ form input[type='email'] {
 	line-height:30px;
 }
 
-form input[type='text']{
+input[type='text']{
 	width:150px;
 }
 
-form input[type='submit'] {
+input[type='submit'] {
 	margin: 20px auto;
 	background-color: #fc6a19;
 	color: white;
@@ -85,8 +71,7 @@ td {
 	background-color: white;
 	width: 400px;
 }
- 
- 
+
 .wrap_submit{
 	display: inline-block;
 }

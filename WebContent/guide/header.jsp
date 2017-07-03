@@ -7,11 +7,11 @@
 		<div class='login'>
 			<div class=''>
 				<div class='move_login box'>
-					<a href='login.jsp'>로그인</a>
+					<a href='login.jsp'><h4>로그인</h4></a>
 				</div>
 				<div class='dot'>ㆍ</div>
 				<div class='move_signup box'>
-					<a href='join.jsp'>회원가입</a>
+					<a href='join.jsp'><h4>회원가입</h4></a>
 				</div>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 					<ul>
 						<li><h5>템플스테이란?</h5></li>
 						<li><h5>템플스테이 소개</h5></li>
-						<li><h5>주지스님 인사말</h5></li>
+						<li><a href='monk.jsp'><h5>주지스님 인사말</h5></a></li>
 						<li><h5>프로그램 소개</h5></li>
 						<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
 					</ul>
@@ -75,7 +75,7 @@
 					<ul>
 						<li><h5>공지사항</h5></li>
 						<li><h5>질문과 답변</h5></li>
-						<li><h5>게시판</h5></li>
+						<li><a href='bbs.jsp'><h5>게시판</h5></a></li>
 						<li><h5>포토갤러리</h5></li>
 						<li><h5>홍보동영상</h5></li>
 					</ul>

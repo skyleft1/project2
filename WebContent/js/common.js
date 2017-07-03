@@ -12,10 +12,10 @@ $(document).ready(function(){
 		$('.wrap_inner').slideUp(200);
 	});
 	
-	$(document).on('mouseenter', '.menu_content li, .menu_content_inner li', function(e){
+	$(document).on('mouseenter', '.menu_content li h3, .menu_content_inner li h5', function(e){
 		$(this).css('color', '#378c42 !important');
 	});
-	$(document).on('mouseleave', '.menu_content li, .menu_content_inner li', function(e){
+	$(document).on('mouseleave', '.menu_content li h3, .menu_content_inner li h5', function(e){
 		$(this).css('color', '');
 	});
 	

@@ -14,11 +14,24 @@ body{
 	padding :0;
 	font-family: 'Nanum Gothic';
 }
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
 h3{
 	font-size: 20px;
 }
+h4{
+	font-size: 15px;
+	color : #4f964e;
+}
 h5{
 	font-size: 15px;
+}
+h6{
+	font-size: 14px;
 }
 
 
@@ -45,10 +58,6 @@ h5{
 }
 
 
-.login .move_login,
-.login .move_signup{
-	color : #4f964e;
-}
 .dot {
 	color: white;
 }

@@ -21,9 +21,13 @@
 	<div class='header'></div>
 
 	<!-- login -->
-	<div class=''>
+	<div class='wrap'>
+		<div class='side_menu'>
+		
+		</div>
 		<div class='join_content'>
-			<div class=''><h3>회원가입</h3>
+			<div class=''>
+				<div class='join_maintitle'><h3>회원가입</h3></div>
 				<div class=''>
 					<form method='post' action=joinAction.jsp>
 						<table>
@@ -38,7 +42,6 @@
 									<td><input type='password' name='userPassword' value=''>
 									</td>
 								</tr>
-								<tr>
 								<tr>
 									<th>비밀번호 확인</th>
 									<td><input type='password' name='userPassword' value=''>
