@@ -9,10 +9,12 @@
 
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/training.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+		
 		<script src='js/jquery-3.1.0.js'></script>
+        <script src='js/jquery-ui.js'></script>
+        
 		<script src="js/common.js"></script>
-		<script>
-		</script>
 
 	</head>
 	<body>
@@ -47,11 +49,9 @@
 	</div>
 
 
-
-
 	<!-- footer -->
 	<div class='footer'></div>
-
+    <script></script>
 
 	</body>
 	</html>

@@ -30,7 +30,7 @@
 									<h3>프로그램</h3>
 								</div></li>
 							<li><div>
-									<h3>신청하기</h3>
+									<h3>찾아오시는 길</h3>
 								</div></li>
 							<li><div>
 									<h3>여름수련회</h3>
@@ -48,18 +48,18 @@
 						<li><a href='intro01.jsp'><h5>템플스테이란?</h5></a></li>
 						<li><a href='intro02.jsp'><h5>템플스테이 소개</h5></a></li>
 						<li><a href='monk.jsp'><h5>주지스님 인사말</h5></a></li>
+						<li><a href='fac.jsp'><h5>시설 현황</h5></a></li>
+					</ul>
+					<ul>
+						<li><a href='program01.jsp'><h5>휴식형 프로그램</h5></a></li>
+						<li><a href='program02.jsp'><h5>체험형 프로그램</h5></a></li>
+						<li><a href='program03.jsp'><h5>템플라이프</h5></a></li>
+						<li><h5></h5></li>
+						<li><h5></h5></li>
+					</ul>
+					<ul>
 						<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
-					</ul>
-					<ul>
-						<li><h5>상시프로그램</h5></li>
-						<li><h5>특별프로그램</h5></li>
-						<li><h5>템플라이프</h5></li>
 						<li><h5></h5></li>
-						<li><h5></h5></li>
-					</ul>
-					<ul>
-						<li><a href='reserve.jsp'><h5>신청하기</h5></a></li>
-						<li><h5>예약확인</h5></li>
 						<li><h5></h5></li>
 						<li><h5></h5></li>
 						<li><h5></h5></li>

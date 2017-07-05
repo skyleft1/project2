@@ -19,10 +19,7 @@
 		<script src='js/jquery-ui.js'></script>
 
 		<script src='js/common.js'></script>
-		
-		<script>
-		
-		</script>
+
 
 
 	</head>

@@ -9,7 +9,9 @@
 
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/join.css">
+		
 		<script src='js/jquery-3.1.0.js'></script>
+		<script src='js/jquery-ui.js'></script>
 		<script src="js/common.js"></script>
 		<script>
 		</script>

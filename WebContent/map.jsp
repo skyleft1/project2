@@ -16,8 +16,6 @@
 
 		<script src='js/common.js'></script>
 
-
-
 	</head>
 	<body>
 
@@ -30,9 +28,6 @@
 		<div class='side_menu'>
 			<div><h3>템플스테이</h3></div>
 			<ul>
-				<li><a href='intro01.jsp'><h5>템플스테이란?</h5></a></li>
-				<li><a href='intro02.jsp'><h5>템플스테이 소개</h5></a></li>
-				<li><a href='monk.jsp'><h5>주지스님 인사말</h5></a></li>
 				<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
 			</ul>
 		</div>
