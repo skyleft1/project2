@@ -33,10 +33,15 @@
 			<div class=''><h3>신청하기</h3>
 				<div class=''>
 					<form method='post' action=reserveAction.jsp>
-						<div class='calander1'></div>
-						<div class='calander2'></div>
+                    <div></div>
+						<input type='text' class ='calander1' name='' value=''>
+                        <input type='text' class ='calander2' name='' value=''>
+
 						<div>
+                            <input type='button' class ='ex1' name='' value='연습'>
 							<input type='submit' name='' value='신 청'>
+                            <div class='result1'></div>
+                            <div class='result2'></div>
 						</div>
 					</form>
 				</div>

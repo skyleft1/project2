@@ -30,8 +30,8 @@ form input[type='password']
 {
 	background-color: #f7f7f7;
     border: 1px solid #e4e4e4;
-	width:400px; height:35px;
-
+	width:400px; 
+    padding: 10px;
 }
 form input[type='submit'] {
 	margin: 20px auto;

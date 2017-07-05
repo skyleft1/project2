@@ -7,7 +7,7 @@ body{
 }
 
 .reserve_content{
-	width: 750px;
+	width: 900px;
 }
 
 .reserve_content > div{
@@ -38,3 +38,9 @@ form input[type='submit'] {
 {
 	display: inline-block;
 }
+form input[type='text'] {
+    width:150px; height:35px;
+    border: 1px solid gray;
+    margin: 20px auto;
+    font-size : 16px;
+

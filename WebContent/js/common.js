@@ -19,22 +19,24 @@ $(document).ready(function(){
 		$(this).css('color', '');
 	});
 	
+	
 	$(function(){
+		
+		$.datepicker.setDefaults($.datepicker.regional['ko']); 
 		$( ".calander1" ).datepicker({
-			showOn: "both"
-			, buttonImage: "button.png" 
-			, minDate: 0 
+			dateFormat: 'yy-mm-dd'
+			, minDate: 0
 		    , maxDate: 30
+		    , onSelect : function(value, inst){
+		    	$('.calander2').datepicker("option", "minDate", value);
+
+		    }
 		});
-	});
-	$(function(){
 		$( ".calander2" ).datepicker({
-			showOn: "both"
-			, buttonImage: "button.png" 
-			, minDate: 0 
-		    , maxDate: 30
+			dateFormat: 'yy-mm-dd'
+		    , onSelect : function(value, inst){
+		    	$('.calander1').datepicker("option", "maxDate", value);
+		    }
 		});
 	});
-
-
 });

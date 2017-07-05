@@ -13,7 +13,6 @@
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 
 		<link rel='stylesheet' href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css'>
-		<link rel="stylesheet" href="./style.css">
 
 
 		<script src='js/jquery-3.1.0.js'></script>
@@ -35,18 +34,39 @@
 <!-- content -->
 	<div class='content'>
 		<!-- 메인사진-->
-		<div class='main_content'>
-			<div class='main_banner'>
+        <div class='main_content'>
+            <div class='main_banner'>
+                <!--  예약  -->
+                <div class='reserve_content'>
+                    <div class=''>
+                        <div class =''>
+                            <p><f1>마음의 달이 아름다운 절,</f1></p>
+                            <p><f2>월정사 템플스테이</f2></p>
+                        </div>
+                        <div class='reserve'>
+                            <form method='post' action=reserveAction.jsp>
+                                <div></div>
+                                <input type='text' class='calander1'
+                                    name='' value='시작일'> <input
+                                    type='text' class='calander2'
+                                    name='' value='종료일'>
+                                <div>
+                                    <input type='submit' name='' value='신청하기'>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-				<div class=''>
-					<div class=''></div>
-				</div>
-			</div>
-		</div>
-		<!-- 배너 3개 -->
-		<div class='inner_content'>
+
+
+
+        <!-- 배너 3개 -->
+		<div class='banner_content'>
 			<div class=''>
-				<div class='wrap_content'>
+				<div class='wrap_banner'>
 					<div class='notice'>
 						<div class=''>
 							<h3>공지사항</h3>
@@ -76,7 +96,8 @@
 							<h3>프로그램</h3>
 						</div>
 						<div class=''>
-						</div>
+                            
+                        </div>
 					</div>
 				</div>
 			</div>

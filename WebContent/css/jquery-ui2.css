@@ -4,12 +4,15 @@
 * To view and modify this theme, visit http://jqueryui.com/themeroller/?scope=&folderName=base&cornerRadiusShadow=8px&offsetLeftShadow=0px&offsetTopShadow=0px&thicknessShadow=5px&opacityShadow=30&bgImgOpacityShadow=0&bgTextureShadow=flat&bgColorShadow=666666&opacityOverlay=30&bgImgOpacityOverlay=0&bgTextureOverlay=flat&bgColorOverlay=aaaaaa&iconColorError=cc0000&fcError=5f3f3f&borderColorError=f1a899&bgTextureError=flat&bgColorError=fddfdf&iconColorHighlight=777620&fcHighlight=777620&borderColorHighlight=dad55e&bgTextureHighlight=flat&bgColorHighlight=fffa90&iconColorActive=ffffff&fcActive=ffffff&borderColorActive=003eff&bgTextureActive=flat&bgColorActive=007fff&iconColorHover=555555&fcHover=2b2b2b&borderColorHover=cccccc&bgTextureHover=flat&bgColorHover=ededed&iconColorDefault=777777&fcDefault=454545&borderColorDefault=c5c5c5&bgTextureDefault=flat&bgColorDefault=f6f6f6&iconColorContent=444444&fcContent=333333&borderColorContent=dddddd&bgTextureContent=flat&bgColorContent=ffffff&iconColorHeader=444444&fcHeader=333333&borderColorHeader=dddddd&bgTextureHeader=flat&bgColorHeader=e9e9e9&cornerRadius=3px&fwDefault=normal&fsDefault=1em&ffDefault=Arial%2CHelvetica%2Csans-serif
 * Copyright jQuery Foundation and other contributors; Licensed MIT */
 
+/* 크기 조정 .ui-datepicker */
+
 .ui-draggable-handle {
 	-ms-touch-action: none;
 	touch-action: none;
 }
 /* Layout helpers
 ----------------------------------*/
+
 .ui-helper-hidden {
 	display: none;
 }
@@ -400,8 +403,7 @@ button.ui-button::-moz-focus-inner {
 	pointer-events: none;
 }
 .ui-datepicker {
-	width: 17em;
-	padding: .2em .2em 0;
+	width: 200px;
 	display: none;
 }
 .ui-datepicker .ui-datepicker-header {
@@ -451,7 +453,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-datepicker select.ui-datepicker-month,
 .ui-datepicker select.ui-datepicker-year {
-	width: 43%;
+	width: 45%;
 }
 .ui-datepicker table {
 	width: 100%;
@@ -498,10 +500,7 @@ button.ui-button::-moz-focus-inner {
 
 /* with multiple calendars */
 .ui-datepicker.ui-datepicker-multi {
-	clear: both;
-    width: auto !important;
-    height: auto;
-    overflow: hidden;
+	width: 800px;
 }
 .ui-datepicker-multi .ui-datepicker-group {
 	float: left;
@@ -511,7 +510,7 @@ button.ui-button::-moz-focus-inner {
 	margin: 0 auto .4em;
 }
 .ui-datepicker-multi-2 .ui-datepicker-group {
-	width: 43%;
+	width: 50%;
 }
 .ui-datepicker-multi-3 .ui-datepicker-group {
 	width: 33.3%;

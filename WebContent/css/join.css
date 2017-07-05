@@ -50,6 +50,7 @@ form input[type='email'] {
 	border: 1px solid #e4e4e4;
 	width:200px; 
 	line-height:30px;
+    padding: 10px;
 }
 
 form input[type='text']{
