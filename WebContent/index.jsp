@@ -58,8 +58,6 @@
         </div>
 
 
-
-
         <!-- 배너 3개 -->
 		<div class='banner_content'>
 			<div class=''>
