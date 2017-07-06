@@ -24,14 +24,14 @@
 
 <!-- content -->
 	<div class='wrap'>
-	<!-- map 좌측메뉴 -->
+	<!-- 좌측메뉴 -->
 		<div class='side_menu'>
 			<div><h3>템플스테이</h3></div>
 			<ul>
 				<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
 			</ul>
 		</div>
-	<!-- map 우측내용 -->
+	<!-- 우측내용 -->
 		<div class='map_content'>
 			<div class=''>
 				<div><h3>찾아오시는 길</h3></div>

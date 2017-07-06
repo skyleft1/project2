@@ -11,7 +11,7 @@ p{
 }
 
 .bbs_view_content{
-	width: 700px;
+	width: 900px;
 }
 
 .bbs_view_maintitle{
@@ -29,27 +29,10 @@ p{
 }
 
 
-form input[type='text'],
-form input[type='password'],
-form input[type='email'] {
-	background-color: #f7f7f7;
-	border: 1px solid #e4e4e4;
-	width:200px; 
-	line-height:30px;
-}
 
-input[type='text']{
-	width:150px;
+tbody tr:last-child{
+    height: 400px;
 }
-
-input[type='submit'] {
-	margin: 20px auto;
-	background-color: #fc6a19;
-	color: white;
-	font-size: 16px;
-	padding: 11px 25px;
-}
-
 
 th {
 
@@ -69,9 +52,30 @@ th, td {
 
 td {
 	background-color: white;
-	width: 400px;
+	width: 600px;
 }
 
 .wrap_submit{
 	display: inline-block;
+}
+
+.modify_delete{
+    width: 730px;
+    text-align: right;
+}
+
+.modify_delete > div{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.bbs_view_modify,
+.bbs_view_delete
+{
+    width: 30px;
+    margin: 15px auto;
+    background-color: #fc6a19;
+    color: white;
+    font-size: 16px;
+    padding: 9px 20px;
 }

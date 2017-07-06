@@ -22,7 +22,7 @@
 <!-- header -->
 	<div class='header'></div>
 
-	<!-- bbs -->
+	<!-- program -->
 
 	<div class='wrap'>
 	<!-- 좌측메뉴 -->

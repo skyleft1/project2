@@ -66,15 +66,15 @@
 				<div class='wrap_banner'>
 					<div class='notice'>
 						<div class=''>
-							<h3>공지사항</h3>
+							<h3>게시판</h3>
 						</div>
 						<div class=''>
 							<ul>
-								<li>공지1 title n</li>
-								<li>공지2 title n-1</li>
-								<li>공지3 title n-2</li>
-								<li>공지4 title n-3</li>
-								<li>공지5 title n-4</li>
+								<li>게시1 title n</li>
+								<li>게시2 title n-1</li>
+								<li>게시3 title n-2</li>
+								<li>게시4 title n-3</li>
+								<li>게시5 title n-4</li>
 							</ul>
 						</div>
 					</div>
@@ -92,8 +92,13 @@
 						<div>
 							<h3>프로그램</h3>
 						</div>
-						<div class=''>
-                            
+						<div class='photo_size'>
+                            <a href='program01.jsp'><img src='img/banner03.jpg'></a>
+                            <div class=''>
+                                <p><strong>휴식형 프로그램</strong></p>
+                                <p><strong>체험형 프로그램</strong></p>
+                                <p><strong>템플라이프</strong></p>
+                            </div>
                         </div>
 					</div>
 				</div>

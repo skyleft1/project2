@@ -22,7 +22,7 @@
 <!-- header -->
 	<div class='header'></div>
 
-	<!-- login -->
+	<!-- join -->
 	<div class='wrap'>
 		<div class='side_menu'>
 		

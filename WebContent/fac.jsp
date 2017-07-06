@@ -21,10 +21,10 @@
 <!-- header -->
 	<div class='header'></div>
 
-	<!-- bbs -->
+	<!-- fac -->
 
 	<div class='wrap'>
-	<!-- bbs 좌측메뉴 -->
+	<!--  좌측메뉴 -->
 		<div class='side_menu'>
 			<div><h3>커뮤니티</h3></div>
 			<ul>
@@ -34,7 +34,7 @@
 				<li><a href='fac.jsp'><h5>시설 현황</h5></a></li>
 			</ul>
 		</div>
-	<!-- bbs 우측내용 -->
+	<!--  우측내용 -->
 		<div class='fac_content'>
 			<div class=''>
 				<div class='fac_tit01'>

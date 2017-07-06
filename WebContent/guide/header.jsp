@@ -55,11 +55,10 @@
 						<li><a href='program02.jsp'><h5>체험형 프로그램</h5></a></li>
 						<li><a href='program03.jsp'><h5>템플라이프</h5></a></li>
 						<li><h5></h5></li>
-						<li><h5></h5></li>
+
 					</ul>
 					<ul>
 						<li><a href='map.jsp'><h5>찾아오시는 길</h5></a></li>
-						<li><h5></h5></li>
 						<li><h5></h5></li>
 						<li><h5></h5></li>
 						<li><h5></h5></li>
@@ -69,14 +68,12 @@
 						<li><h5></h5></li>
 						<li><h5></h5></li>
 						<li><h5></h5></li>
-						<li><h5></h5></li>
 					</ul>
 					<ul>
 						<li><h5>공지사항</h5></li>
 						<li><h5>질문과 답변</h5></li>
 						<li><a href='bbs.jsp'><h5>게시판</h5></a></li>
 						<li><h5>포토갤러리</h5></li>
-						<li><h5>홍보동영상</h5></li>
 					</ul>
 				</div>
 			</div>

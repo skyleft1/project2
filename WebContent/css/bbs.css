@@ -49,7 +49,7 @@ p{
 /* 우측 내용 */
 
 .bbs_content{
-	width: 850px;
+	width: 870px;
 	display: inline-block;
 }
 
@@ -62,27 +62,6 @@ p{
 	margin-bottom: 20px;
 }
 
-
-form input[type='text'],
-form input[type='password'],
-form input[type='email'] {
-	background-color: #f7f7f7;
-	border: 1px solid #e4e4e4;
-	width:200px; 
-	line-height:30px;
-}
-
-input[type='text']{
-	width:150px;
-}
-
-input[type='submit'] {
-	margin: 20px auto;
-	background-color: #fc6a19;
-	color: white;
-	font-size: 16px;
-	padding: 11px 25px;
-}
 
 
 th {
@@ -108,4 +87,31 @@ td {
 
 .wrap_submit{
 	display: inline-block;
+}
+
+.prev_bbs,
+.next_bbs,
+.write_bbs
+{
+    width: 30px;
+    margin: 15px auto;
+    background-color: #fc6a19;
+    color: white;
+    font-size: 16px;
+    padding: 9px 20px;
+}
+.write_bbs{
+    width: 50px;
+}
+
+.bbs_write {
+    text-align: right;
+}
+
+.bbs_write div{
+    display: inline-block;
+}
+
+.write_bottom{
+    margin-left: 550px;
 }

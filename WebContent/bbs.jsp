@@ -37,39 +37,52 @@
 			</ul>
 		</div>
 	<!-- bbs 우측내용 -->
-		<div class='bbs_content'>
-			<div class=''>
-				<div class='bbs_maintitle'><h3>게시판</h3></div>
-				<div class=''>
-					<table>
-						<thead>
-							<tr>
-								<th><h5>번호</h5></th>
-								<th><h5>제목</h5></th>
-								<th><h5>글쓴이</h5></th>
-								<th><h5>날짜</h5></th>
-								<th><h5>조회</h5></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td><h6>글 번호</h6></td>
-								<td><a href='bbs_view.jsp'><h6>제목</h6></a></td>
-								<td><h6>작성자</h6></td>
-								<td><h6>날짜</h6></td>
-								<td><h6>조회 수</h6></td>
-							</tr>
-						</tbody>
-					</table>
-					<div class=''>
-						<input type='button' name='' value='회원가입'>
-						<br><br><br><br><br><br><br><br><br><br><br>
-						<br><br><br><br><br><br><br><br><br><br><br>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class='bbs_content'>
+            <div class=''>
+                <div class='bbs_maintitle'>
+                    <h3>게시판</h3>
+                </div>
+                <div class='bbs_maincontent'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><h5>번호</h5></th>
+                                <th><h5>제목</h5></th>
+                                <th><h5>글쓴이</h5></th>
+                                <th><h5>날짜</h5></th>
+                                <th><h5>조회</h5></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><h6>글 번호</h6></td>
+                                <td><a href='bbs_view.jsp'><h6>제목</h6></a></td>
+                                <td><h6>작성자</h6></td>
+                                <td><h6>날짜</h6></td>
+                                <td><h6>조회 수</h6></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class='bbs_write'>
+                        <div>
+                            <div>
+                                <input type='bottom' name=''
+                                    class='prev_bbs' value='이전'>
+                            </div>
+                            <div>
+                                <input type='bottom' name=''
+                                    class='next_bbs' value='다음'>
+                            </div>
+                        </div>
+                        <div class='write_bottom'>
+                            <input type='bottom' name=''
+                                class='write_bbs' value='글쓰기'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

@@ -22,7 +22,7 @@
 <!-- header -->
 	<div class='header'></div>
 
-	<!-- login -->
+	<!-- bbs_view -->
 	<div class=''>
 		<div class='bbs_view_content'>
 			<div class=''>
@@ -52,8 +52,13 @@
 							</tr>
 						</tbody>
 					</table>
-					<div class=''>
-						<input type='button' name='' value='이전'>
+					<div class='modify_delete'>
+                        <div>
+                            <input type='bottom' name=''class='bbs_view_modify' value='수정'>
+                        </div>
+                        <div>
+                            <input type='bottom' name=''class='bbs_view_delete' value='삭제'>
+                        </div>
 					</div>
 				</div>
 			</div>

@@ -22,17 +22,17 @@
 <!-- header -->
 	<div class='header'></div>
 
-	<!-- bbs -->
+	<!-- program  -->
 
 	<div class='wrap'>
-	<!-- bbs 좌측메뉴 -->
+	<!--  좌측메뉴 -->
 		<div class='side_menu'>
 			<div><h3>여름수련회</h3></div>
 			<ul>
 				<li><a href='training.jsp'><h5>여름수련회 소개</h5></a></li>
 			</ul>
 		</div>
-	<!-- bbs 우측내용 -->
+	<!--  우측내용 -->
 		<div class='training_content'>
 			<div class=''>
 				<div class='training_tit01'>
