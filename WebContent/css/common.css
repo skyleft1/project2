@@ -2,6 +2,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 
+html{
+
+}
 body{
 	
 }
@@ -115,29 +118,23 @@ h6{
 	text-align : right;
 }
 
-
 .menu_content_inner > ul{
 	vertical-align: top;
 	display: inline-block;
 	width: 140px;
 	text-align: center;
-
 }
-
 
 .menu_content_inner > ul > li{
 	line-height: 30px;
 	color: #707070;
 }
 
-
-
-
-
 /*여기서부터 footer*/
 
 .footer{
 	background-color: #333333;
+
 }
 .wrap_footer{
 	width: 1100px;
